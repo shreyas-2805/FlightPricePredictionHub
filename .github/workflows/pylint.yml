@@ -25,4 +25,4 @@ jobs:
         pip install pylint pandas numpy tensorflow keras scikit-learn pennylane
     - name: Run pylint
       run: |
-        pylint */.py
+        pylint **/.py

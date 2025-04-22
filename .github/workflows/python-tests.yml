@@ -22,4 +22,4 @@ jobs:
 
     - name: Run tests
       run: |
-        PYTHONPATH=. python -m unittest discover -s . -p "test_*.py"
+        PYTHONPATH=./FlightPricePredictionHub python -m unittest discover -s FlightPricePredictionHub -p "test_*.py"
